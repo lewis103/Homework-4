@@ -1,0 +1,32 @@
+#started with the requested modulo and range
+n=15
+primes = prime_range(10^7)
+stats.TimeSeries(primes).plot_histogram(n)
+
+#ran at n=2
+n=2
+primes = prime_range(10^7)
+stats.TimeSeries(primes).plot_histogram(n)
+
+#ran at n=100
+n=100
+primes = prime_range(10^7)
+stats.TimeSeries(primes).plot_histogram(n)
+
+#ran at n=25
+n=25
+primes = prime_range(10^7)
+stats.TimeSeries(primes).plot_histogram(n)
+
+#I now decided to see what it looked like if I only went up to 10^3
+#This produced interesting results, a more "zoomed in" image of the 
+#histogram
+n=15
+primes = prime_range(10^3)
+stats.TimeSeries(primes).plot_histogram(n)
+
+#Also tried it with up to 10^5
+n=15
+primes = prime_range(10^5)
+stats.TimeSeries(primes).plot_histogram(n)
+
