@@ -13,8 +13,8 @@ n=100
 primes = prime_range(10^7)
 stats.TimeSeries(primes).plot_histogram(n)
 
-#ran at n=25
-n=25
+#ran at n=1000
+n=1000
 primes = prime_range(10^7)
 stats.TimeSeries(primes).plot_histogram(n)
 
