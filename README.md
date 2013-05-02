@@ -1,6 +1,33 @@
 Homework-4
 ==========
 (1)
+This problem was very interesting, however, was also very challenging for me. I spent a multitude of hours just 
+trying to understand it and come up with the code to run some tests. Even though I was not able to completely run
+the code I wanted I still made some interesting discoveries and hopefully gathered enough data and examples to make
+a fairly educated conjecture. 
+
+Methods I used:
+
+def foo():
+    func == (polynomial)
+    for i in range (100):
+        if is_prime(func(i)):
+            return 'yes'
+        else:
+            return 'no'
+
+This would tell me if a function produced prime numbers. I began to notice a correlation between functions that 
+produce prime numbers and whether that function can or can not be factored. With that I used, factor(), a lot while
+working with this problem.
+
+What I found:
+It seems that functions such as (x^2+x) which can be factored will never produce a prime, in fact, (x^2+x)*(any x in Z)
+will never return a prime number. I began going down this route, testing functions that could be factored, however, I 
+came upon the contradiction (x^2+5x+2) which can not be factored however will never produce a prime. 
+
+It seems to me that there is definitely a correlation between a function ability to be factored and there is also 
+clearly a relationship between even and odd numbers as our integer coefficients. 
+
 
 
 (2)
