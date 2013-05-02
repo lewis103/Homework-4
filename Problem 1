@@ -1,0 +1,9 @@
+def foo():
+    func == (x^2+4*x+4)
+    for i in range (1000):
+        if is_prime(func(i)):
+            return 'yes'
+        else:
+            return 'no'
+
+factor(x^2+4*x+4)
